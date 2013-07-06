@@ -1,0 +1,189 @@
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body 							{ min-width: 1200px; }
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container 						{ position: relative; margin-left: auto; margin-right: auto; width: 1200px; }
+.row							{ margin-bottom: 20px; }
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12,
+.grid13,
+.grid14,
+.grid15,
+.grid16 						{ display:inline; float: left; position: relative; margin-left: 10px; margin-right: 10px; }
+
+.push1, .pull1,
+.push2, .pull2,
+.push3, .pull3,
+.push4, .pull4,
+.push5, .pull5,
+.push6, .pull6,
+.push7, .pull7,
+.push8, .pull8,
+.push9, .pull9,
+.push10, .pull10,
+.push11, .pull11,
+.push12, .pull12,
+.push13, .pull13,
+.push14, .pull14,
+.push15, .pull15,
+.push16, .pull16 				{ position: relative; }
+
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+.alpha 							{ margin-left: 0; }
+.omega 							{ margin-right: 0; }
+
+/* Grid >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+.container .grid1 				{ width: 55px; }
+.container .grid2 				{ width: 130px; }
+.container .grid3 				{ width: 205px; }
+.container .grid4 				{ width: 280px; }
+.container .grid5 				{ width: 355px; }
+.container .grid6 				{ width: 430px; }
+.container .grid7 				{ width: 505px; }
+.container .grid8 				{ width: 580px; }
+.container .grid9 				{ width: 655px; }
+.container .grid10 				{ width: 730px; }
+.container .grid11 				{ width: 805px; }
+.container .grid12 				{ width: 880px; }
+.container .grid13 				{ width: 955px; }
+.container .grid14 				{ width: 1030px; }
+.container .grid15 				{ width: 1105px; }
+.container .grid16 				{ width: 1180px; }
+
+/* Prefix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+.container .prefix1 			{ padding-left: 75px; }
+.container .prefix2 			{ padding-left: 150px; }
+.container .prefix3 			{ padding-left: 225px; }
+.container .prefix4 			{ padding-left: 300px; }
+.container .prefix5 			{ padding-left: 375px;}
+.container .prefix6 			{ padding-left: 450px; }
+.container .prefix7 			{ padding-left: 525px; }
+.container .prefix8 			{ padding-left: 600px; }
+.container .prefix9 			{ padding-left: 675px; }
+.container .prefix10 			{ padding-left: 750px; }
+.container .prefix11 			{ padding-left: 825px; }
+.container .prefix12 			{ padding-left: 900px; }
+.container .prefix13 			{ padding-left: 975px; }
+.container .prefix14 			{ padding-left: 1050px; }
+.container .prefix15 			{ padding-left: 1125px; }
+
+/* Suffix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+.container .suffix1 			{ padding-right: 75px; }
+.container .suffix2 			{ padding-right: 150px; }
+.container .suffix3 			{ padding-right: 225px; }
+.container .suffix4 			{ padding-right: 300px; }
+.container .suffix5 			{ padding-right: 375px; }
+.container .suffix6 			{ padding-right: 450px; }
+.container .suffix7 			{ padding-right: 525px; }
+.container .suffix8 			{ padding-right: 600px; }
+.container .suffix9 			{ padding-right: 675px; }
+.container .suffix10 			{ padding-right: 750px; }
+.container .suffix11 			{ padding-right: 825px; }
+.container .suffix12 			{ padding-right: 900px; }
+.container .suffix13 			{ padding-right: 975px; }
+.container .suffix14 			{ padding-right: 1050px; }
+.container .suffix15 			{ padding-right: 1125px; }
+
+/* Push Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+.container .push1 				{ left: 75px; }
+.container .push2 				{ left: 150px; }
+.container .push3 				{ left: 225px; }
+.container .push4 				{ left: 300px; }
+.container .push5 				{ left: 375px; }
+.container .push6 				{ left: 450px; }
+.container .push7 				{ left: 525px; }
+.container .push8 				{ left: 600px; }
+.container .push9 				{ left: 675px; }
+.container .push10 				{ left: 750px; }
+.container .push11 				{ left: 825px; }
+.container .push12 				{ left: 900px; }
+.container .push13 				{ left: 975px; }
+.container .push14 				{ left: 1050px; }
+.container .push15 				{ left: 1125px; }
+
+/* Pull Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+.container .pull1 				{ left: -75px; }
+.container .pull2 				{ left: -150px; }
+.container .pull3 				{ left: -225px; }
+.container .pull4 				{ left: -300px; }
+.container .pull5 				{ left: -375px; }
+.container .pull6 				{ left: -450px; }
+.container .pull7 				{ left: -525px; }
+.container .pull8 				{ left: -600px; }
+.container .pull9 				{ left: -675px; }
+.container .pull10 				{ left: -750px; }
+.container .pull11 				{ left: -825px; }
+.container .pull12 				{ left: -900px; }
+.container .pull13 				{ left: -975px; }
+.container .pull14 				{ left: -1050px; }
+.container .pull15 				{ left: -1125px; }
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.container:after,
+.clearfix:before,
+.clearfix:after,
+.row:after,
+.row:before {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+
+.row,
+.clearfix {
+  zoom: 1;
+}
